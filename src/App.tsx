@@ -49,7 +49,7 @@ export default function App() {
               onClick={navigateToHome}
               className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-700 transition-all"
             >
-              🎓 KidsLearn
+              🎓 Webora Uni
             </button>
             <nav className="hidden md:flex items-center gap-4">
               <button 
@@ -113,7 +113,7 @@ export default function App() {
           <div className="max-w-md mx-auto mt-16 px-4">
             <div className="text-center mb-8">
               <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                Welcome Back! 🌟
+                Welcome Back! <span className="text-2xl">🌟</span>
               </h1>
               <p className="text-lg text-gray-600">
                 Sign in to access your purchased courses and track your progress
